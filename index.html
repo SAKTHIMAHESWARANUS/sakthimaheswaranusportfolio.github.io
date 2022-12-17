@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sakthimaheswaran's Portfolio</title>
+	<link rel="icon" href="data:image/png;base64,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" type="image/icon type">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="sakthimahes.jpg"><span>S</span>akthimaheswaran U S</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Global Platforms</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Sakthimaheswaran U S</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="2000"
+								     data-rotate='[ "Student","Coder","Competitive Programmer", "Web/App Designer" ]'></span>
+								</h2>
+							</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch" style="background-image:url('sakthimahes.jpg');">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" >
+
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+					<ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Sakthimaheswaran U S</span></li>
+						<li class="d-flex"><span>Father's Name:</span> <span>SivaKumar M</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>December 22, 2002</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>2,Kannusamy Layout,<br>Tiruppur Road,<br>Udumalpet</span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span>642 126</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>sakthimaheswaranus@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>9442736520</span></li>
+		            </ul>
+		          </div>
+		        </div>
+			<div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+					<span><b>Number of Projects completed :</b></span>
+	                <span>2</span>
+                </p>
+				<p class="mb-4">
+	                <span><b>Number of Ongoing Projects :</b></span>
+					<span>2</span>
+                </p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Education</a></li>
+					      <li><a href="#page-2">Certifications</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+						  <li><a href="#page-5">Internship</a></li>
+					      <li><a href="#page-4">Achievements and Awards</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+					  	<h2 class="heading">Education</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2017-2018</span>
+		    					<h2>Secondary</h2>
+		    					<span class="position">Srinivasa Vidhyalaya Matriculation Higher Secondary School</span>
+		    					<p>Percentage Scored : 94 %</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2018-2020</span>
+		    					<h2>Higher Secondary</h2>
+		    					<span class="position">Srinivasa Vidhyalaya Matriculation Higher Secondary School</span>
+		    					<p>Percentage Scored : 87.67 %</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2020-2024</span>
+		    					<h2>	Bachelor in Computer Science Engineering</h2>
+		    					<span class="position">Sri Eshwar College of Engineering</span>
+		    					<p>CGPA Scored : 9.0</p>
+		    				</div>
+	    				</div>
+					  </div>
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Certifications</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<a href="https://www.udemy.com/certificate/UC-6ae40af7-97ab-458b-b04f-4f2f05e955e3/">
+		    					<h2>Mastering in Data Structures in C and C++</h2>
+							</a>
+		    					<span class="position">Udemy</span>
+		    					<p>This course helped me to learn concept of various data structures and algorithm in C and C++ programming languages</p>
+		    				</div>
+						
+	    				</div>
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<a href="https://drive.google.com/file/d/1vZ2lv-ZdfL3tk6-eROrf2126SP5vs65D/view?usp=drivesdk">
+		    					<h2>Android Application Development Course</h2>
+							</a>
+		    					<span class="position">SECE Summer Workshop</span>
+		    					<p>This course helped me to learn the basic buliding blocks for developing a application and helps in developing small applications</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<a href="https://www.sololearn.com/certificates/CT-UFX7PKW5">
+		    					<h2>SQL</h2>
+								</a>
+		    					<span class="position">Sololearn</span>
+		    					<p>This course helped me to learn various SQL commands and their implementation</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<a href="https://www.sololearn.com/certificates/CT-U7NODBPF">
+		    					<h2>Python</h2>
+								</a>
+		    					<span class="position">Sololearn</span>
+		    					<p>This course helped me to learn Python programming language syntax and various Python data types and functions</p>
+		    				</div>
+	    				</div>
+	    				
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">Skills</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">JAVA</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='80'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">C</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='85'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">PYTHON</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='70'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0"></div><span class="small text-gray"></span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>HTML</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>CSS</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>70%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>JAVASCRIPT</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="60"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+										    <span>60%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>SQL</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+										    <span>75%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>ANGULAR JS</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="60"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+										    <span>60%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>MATHEMATICS</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="65"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
+										    <span>65%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+					  	</div>
+					  </div>
+					  <div id="page-5" class= "page five">
+						
+						<h2 class="heading">Internship</h2>
+						
+					  <div class="resume-wrap d-flex ftco-animate">
+						  <div class="icon d-flex align-items-center justify-content-center">
+							  <span class="flaticon-ideas"></span>
+						  </div>
+						  <div class="text pl-3">
+							<a href="https://drive.google.com/file/d/1vV1Zo9uShDepzPEz2KTiKkzkksZDyNqN/view?usp=drivesdk">
+							  <h2>Internship on Angular JS</h2>
+							  </a>
+							  <span class="position">KaaShiv Infotech, Chennai</span>
+							  <p>I had completed internship on Angular JS at KaaShiv Infotech, Chennai with A grade</p>
+						  </div>
+					  </div>
+					  <div id="page-4" class= "page four">
+					    <h2 class="heading">Achievements &amp Awards</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Android Application Developement Workshop and Competition</h2>
+		    					<span class="position">Sri Eshwar Summar Workshop</span>
+		    					<p>I had participated in android application developement workshop and competition and showcased my project</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Maths Quiz Competition</h2>
+		    					<span class="position">Department of Mathematics of Sri Eshwar</span>
+		    					<p>I had participated in maths quiz competition held by department of mathematics and won 2nd prize</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Sri Eshwar Innovation Challenge</h2>
+		    					<span class="position">Sri Eshwar College of Engineering</span>
+		    					<p>I had in participated in Sri Eshwar Innovation Challenge 2020 and showcased my project</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Cyber Security Workshop</h2>
+		    					<span class="position">Sri Ramakrishna Engineering College</span>
+		    					<p>I had participated in cyber security workshop held at Sri Ramakrishna Engineering College</p>
+		    				</div>
+	    				</div>
+					  </div>
+					</div>
+			  </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Global Platforms</h1>
+            <h2 class="mb-4">Global Platforms</h2>
+            <p></p>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="http://www.skillrack.com/profile/317268/b0688619b4c2a0343c9e125375a014f73c39d37e" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-innovation"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">SKILLRACK</h3>
+								<p>I had solved about 1900+ problems in C, Java and Python languages in skillrack platform</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://leetcode.com/Sakthimaheswaran_2002/" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ux-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">LEETCODE</h3>
+								<p>I had solved about 170+ problems in Leetcode platform</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.codechef.com/users/sakthi_110" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">CODECHEF</h3>
+								<p>I had participated about 20+ contest conducted in codechef</p>
+							</div>
+						</a>
+					</div>
+
+					
+    	</div>
+    </section>
+ 
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">My Projects</h2>
+            <p>The following are my projects</p>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			
+  				<div class="col-md-4">
+					<br>
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('data:image/jpeg;base64,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');">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#"><b><u>Speak &amp; Translate Application</u></b></a></h3>
+	    					<span>Speak and translate application provides way for the people to translate the language based on their on voice input</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<br>
+				<br>
+    			
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('data:image/jpeg;base64,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');">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#"><b><u>Mr.Guide</u></b></a></h3>
+	    					<span>Mr.Guide is application which provides way for the people to find information about the tourism places.</span>
+	    				</div>
+    				</div>
+    			</div>
+    			
+    		</div>
+    	</div>
+    </section>
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>2,Kannusamy Layout, <br>Tiruppur Road, <br>Udumalpet -642 126</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://9442736520">9442736520</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:sakthimaheswaranus@gmail.com">sakthimaheswaranus@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          
+        </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+			
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+				<h4 align="center"><b>Provide Your Feedback</b></h4>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url('sakthimahes.jpg');"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>Hey! I am Sakthimaheswaran. I am a student at Sri Eshwar College of Engineering. I am a coder and competitive programmer.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://www.facebook.com/sakthimaheswaran.sakthimaheswaran.3"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/sakthimaheswaran-u-s-a38793209/"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/sakthimaheswaran/"><span class="icon-instagram"></span></a></li>
+				<li class="ftco-animate"><a href="https://github.com/SAKTHIMAHESWARANUS"><span class="icon-github"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li>
+                <li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Global Platforms</h2>
+              <ul class="list-unstyled">
+                <li><a href="http://www.skillrack.com/profile/317268/b0688619b4c2a0343c9e125375a014f73c39d37e"><span class="icon-long-arrow-right mr-2"></span>Skill Rack</a></li>
+                <li><a href="https://leetcode.com/Sakthimaheswaran_2002/"><span class="icon-long-arrow-right mr-2"></span>Leetcode</a></li>
+                <li><a href="https://www.codechef.com/users/sakthi_110"><span class="icon-long-arrow-right mr-2"></span>Codechef</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">2,Kannusamy Layout, <br>Tiruppur Road, <br>Udumalpet -642 126</span></li>
+	                <li><a href="tel://9442736520"><span class="icon icon-phone"></span><span class="text">9442736520</span></a></li>
+	                <li><a href="mailto:sakthimaheswaranus@gmail.com"><span class="icon icon-envelope"></span><span class="text">sakthimaheswaranus@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
